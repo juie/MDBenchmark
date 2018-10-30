@@ -19,7 +19,6 @@
 # along with MDBenchmark.  If not, see <http://www.gnu.org/licenses/>.
 import pandas as pd
 import pytest
-
 from mdbenchmark import cli
 from mdbenchmark.ext.click_test import cli_runner
 from mdbenchmark.mdengines import gromacs

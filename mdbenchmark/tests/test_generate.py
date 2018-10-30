@@ -19,11 +19,11 @@
 # along with MDBenchmark.  If not, see <http://www.gnu.org/licenses/>.
 import os
 
+from click import exceptions
+
 import datreant as dtr
 import pandas as pd
 import pytest
-from click import exceptions
-
 from mdbenchmark import cli
 from mdbenchmark.ext.click_test import cli_runner
 from mdbenchmark.generate import (

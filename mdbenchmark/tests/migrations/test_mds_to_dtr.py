@@ -22,7 +22,6 @@ import uuid
 
 import datreant as dtr
 import pytest
-
 from mdbenchmark.migrations import mds_to_dtr
 
 

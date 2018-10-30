@@ -24,12 +24,11 @@ import jinja2
 import numpy as np
 import pandas as pd
 import tabulate
-from numpy.testing import assert_equal
-from pandas.testing import assert_frame_equal
-
 from mdbenchmark import utils
 from mdbenchmark.ext.click_test import cli_runner
 from mdbenchmark.testing import data
+from numpy.testing import assert_equal
+from pandas.testing import assert_frame_equal
 
 
 def test_mdbenchmark_template_environment_variable(monkeypatch):
